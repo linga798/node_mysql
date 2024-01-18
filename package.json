@@ -4,10 +4,11 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "build": "npx tsc",
-    "start": "nodemon src/server.ts",
+    "build": "tsc",
+    "dev": "nodemon src/server.ts",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node src/server.ts"
   },
   "keywords": [],
   "author": "",
