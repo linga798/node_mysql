@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.ts",
     "test": "jest",
     "prepare": "husky install",
-    "start": "node src/server.ts"
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
